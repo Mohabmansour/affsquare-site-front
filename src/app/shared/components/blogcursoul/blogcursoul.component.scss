@@ -1,0 +1,201 @@
+// <-------------------  blogCarsoul style  ------------------->
+
+.our-blogs-carsoul h4
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 72px;
+    /* or 450% */
+    
+
+    text-transform: uppercase;
+    
+    /* Font level 1 */
+    
+    color: #000000;
+}
+
+.our-blogs-carsoul h2
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 56px;
+/* identical to box height, or 156% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+.see-all span
+{
+    cursor: pointer;
+    position: relative;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 225% */
+text-align: center;
+z-index: 2 !important;
+/* Blue - Primary */
+
+color: #138FC2;
+}
+.seeall-bubble
+
+{
+    transition: all ease-in-out 0.3s !important;
+position: absolute;
+right: 35px !important;
+z-index: 1 !important;
+}
+.see-all span .seeall-arrow
+{
+    transition: all ease-in-out 0.3s !important;
+
+}
+.see-all span:hover .seeall-arrow
+{
+  
+
+position: relative;
+left: 10px !important;
+transition: all ease-in-out 0.3s !important;
+}
+
+
+.see-all span:hover .seeall-bubble
+{
+    transition: all ease-in-out 0.3s !important;
+
+    position: absolute;
+    right: 35px !important;
+
+    z-index: 1 !important;
+}
+.blog-date img
+{
+    width: 20px !important;
+    height: 20px !important;
+}
+.blog-date span
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Blue - Primary */
+
+color: #138FC2;
+}
+.owl-carousel .owl-item
+{
+    background: red !important;
+    /* Action Card */
+    
+    box-shadow: -8px 6px 24px rgba(31, 107, 160, 0.05), 8px -6px 24px rgba(31, 107, 160, 0.04) !important;
+    border-radius: 16px !important;
+}
+:host ::ng-deep .owl-carousel .owl-item {
+    
+    background: #FFFFFF;
+    /* Action Card */
+    
+    box-shadow: -8px 6px 24px rgba(31, 107, 160, 0.05), 8px -6px 24px rgba(31, 107, 160, 0.04);
+    border-radius: 16px;
+ 
+}
+:host ::ng-deep .blog-caption
+{
+
+
+padding : 20px !important ;
+}
+:host ::ng-deep .owl-bg .blog-img
+{
+width: 100% !important;
+transition: transform 0.5s  ease-in-out ;
+}
+
+:host ::ng-deep .owl-bg:hover .blog-img
+{
+    transform: rotate(-7deg)  ;
+
+}
+:host ::ng-deep .owl-next {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.15) !important;
+    box-shadow: -7px 3px 10px rgba(0, 0, 0, 0.34);
+    top: 150px !important;
+    border-radius: 50% !important;
+    font-size: 50px !important;
+    right: -3px;
+    padding-bottom: 8px !important;
+    width: 45px;
+    height: 45px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+ 
+ 
+  }
+ 
+  :host ::ng-deep .owl-prev {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2) !important;
+    top: 150px !important;
+    padding: 0px !important;
+    border-radius: 50% !important;
+    padding-bottom: 5px !important;
+    box-shadow: -7px 3px 10px rgba(0, 0, 0, 0.04);
+    font-size: 50px !important;
+    left: -8px;
+    width: 45px;
+    height: 45px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+ 
+ 
+  }
+  :host ::ng-deep .share-icon
+  {
+width: 20px ;
+height: 20px ;
+opacity: 0;
+transition: all 0.3s ease-in-out !important;
+  }
+
+
+  .blogimg-div
+  {
+    z-index: 3 !important;
+    position: relative;
+  }
+  .share-icon{
+    position: absolute;
+    left:170px !important ;
+    bottom: 10px !important;
+    
+  }
+  .owl-bg:hover .share-icon
+{
+    opacity: 1;
+    position: absolute !important;
+    bottom: -25px !important;
+    transition: all 0.5s ease-in-out !important;
+}
+// .blog-caption
+// {
+//     background:red !important ;
+// }
